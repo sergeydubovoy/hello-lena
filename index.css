@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d35fe1-813b-4d36-b681-b7a90010eeec/watercolor.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230215%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230215T135928Z&X-Amz-Expires=86400&X-Amz-Signature=759b81b8f8eadb763a55dd40814bf3ca4dfb90a732d4b3ff78df6cea6564d904&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22watercolor.jpeg%22&x-id=GetObject);
+    font-family: 'arial';
+    text-align: center;
+}
+h1 {
+    font: normal bold 30px/3 "arial";
+    color: #E91E63;
+}
+p{
+    font: normal bold 16px/1 "arial";
+}
+a{
+    font: normal normal 16px/1 "arial";
+}
+div.button {
+    width: 120px;
+    margin: 0 auto;
+}
+div.image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+div.movies {
+    text-align: center;
+}
+.output{
+    font: normal bold 30px/3 "arial";
+    color: #E91E63;
+}
