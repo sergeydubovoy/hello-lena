@@ -40,3 +40,10 @@ a {
     transform: scale(1.1);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+.item:not(:hover) {
+    transition-property: all;
+    transition: all ease 0.3s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
